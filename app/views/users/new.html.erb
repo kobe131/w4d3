@@ -1,0 +1,18 @@
+
+
+<!-- after clicking sign up, we are sending this info to create -->
+<form action="<%= users_url %>" method="post">
+  <label>Username:
+  <input type="text" name="user[user_name]" value="<%= @user.user_name %>">
+   </label> 
+   <label>Password:
+   <input type="password" name="user[password]" value="<%= @user.password %>">
+    </label> 
+    
+    
+  <input type="submit" name="" value="Sign Up">
+    
+  
+  
+  
+</form>
